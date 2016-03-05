@@ -1,0 +1,15 @@
+Source: libxmlpl-cpp-runtime
+Section: unknown
+Priority: optional
+Maintainer: Joseph Coffland <joseph@xmlpl.org>
+Build-Depends: debhelper (>= 4.0.0), autotools-dev, libbasicutils, libxml2-dev, libgc-dev, libcurl3-dev, cdbs, debhelper (>= 4.0)
+Standards-Version: 3.6.2
+
+Package: libxmlpl-cpp-runtime
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libbasicutils, libxml2-dev, libgc1c2, libcurl3
+Description: xmlpl c++ runtime library
+ *** Unofficial package from joseph@xmlpl.org ***
+ .
+ C++ runtime library for xmlpl language.
+ See xmlpl.org
